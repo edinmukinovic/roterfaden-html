@@ -1,0 +1,395 @@
+@font-face {
+    font-family: ABCFavoriteMono;
+    src: url(./assets/fonts/ABCFavoritMono-Light.woff);
+ }
+
+ @font-face {
+    font-family: ABCFavoriteTrial;
+    src: url(./assets/fonts/ABCFavorit-Regular.woff);
+ }
+
+
+ @font-face {
+    font-family: ABCArizonaMixLight;
+    src: url(./assets/fonts/ABCArizonaMix-Light.woff);
+ }
+
+ @font-face {
+    font-family: ABCArizonaMixRegular;
+    src: url(./assets/fonts/ABCArizonaMix-Regular.woff);
+ }
+
+ @font-face {
+    font-family: Manu;
+    src: url(./assets/fonts/ManuInformal.woff);
+ }
+
+
+body{
+    margin: 30px 40px 30px 40px;
+}
+
+/*------NAVIGATION -----*/
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav__left__text{
+    font-family: ABCFavoriteMono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #0F0E09;
+    opacity: 0.4;
+    text-transform: uppercase;
+
+}
+
+.nav__left__links a{
+    text-decoration: none;
+    font-family: ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #0F0E09;
+    padding-right: 50px;
+}
+
+.nav__right__links{
+    
+}
+
+.nav__right__links a{
+    text-decoration: none;
+    font-family: ABCFavoriteMono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #0F0E09;
+    text-transform: uppercase;
+    padding-left: 36px;
+    
+}
+
+.nav__right__text{
+    font-family: ABC Favorit Trial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #0F0E09;
+    
+}
+
+/*------NAVIGATION -----*/
+
+/*--------IMG1-------*/
+
+.img1{
+    margin-top: 31px;
+    display: flex;
+    
+}
+
+
+.img1__background{
+    width: 100%; 
+}
+
+.img1__background img{
+    width: 100%;
+    height: 86%;
+    object-fit: cover;
+    z-index: -999;
+}
+
+.img1__desc{
+    width: 100%;
+    position: absolute;
+    top: 64.2vh;
+    left: 9.5vh;
+    z-index: 1000;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.img1__text{
+    font-family: ABCArizonaMixLight;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 80px;
+   
+}
+
+.img1__description{
+    margin-top: 1rem;
+    color: #FCFCF5;
+    font-family: ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.img1__button{
+    margin-top: 1.5rem;
+    width: 169px;
+    height: 44px;
+    font-family: ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    color: #0F0E09;
+}
+
+.img1__button img{
+    width: auto;
+    height: auto;
+}
+
+.img1__signature{
+    font-family: Manu;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'onum' on;
+    color: #FCFCF5;
+    position: absolute;
+    right: 6.1vh;
+    top:98vh;
+
+    
+  
+}
+/*--------IMG1-------*/
+
+/*--------GALLERY-------*/
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.gallery__left{
+    width: 50%;
+    margin-right: 0.6875em;
+    position: relative;
+}
+
+.gallery__right{
+    width: 50%;
+    margin-left: 0.6875em;
+    justify-content: end;
+}
+
+.left__text{
+        font-family: ABCFavoriteTrial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+.left__signature{
+    margin-top: 1em;
+    float: right;
+    font-family: Manu;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'onum' on;
+    color: #1082B3;;
+}
+
+.left__img{
+    margin-top: 13.75em;
+}
+
+.left__img img{
+    width: 100%;
+}
+
+.right__img img {
+    width: 100%;
+}
+
+.right__signature{
+    margin-top: 18.5vh;
+    float: right;
+    font-family: Manu;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'onum' on;
+    color: #1082B3;;
+}
+
+.right__text{
+        margin-top: 29vh;
+        font-family: ABCFavoriteTrial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 42px;
+        margin-right: 0px;
+        padding-right: 0px;
+}
+
+.right__text a{
+    font-family: ABCArizonaMixRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.underline{
+    text-decoration: none;
+	padding-bottom: 2px;
+	background: url(./assets/images/underline.png) bottom repeat-x;
+}
+/*--------GALLERY-------*/
+
+/*--------OUR RANGE-------*/
+.our__range{
+    margin-top: 13.2vh;
+    padding-bottom: 2vh;
+    border-bottom: 1px solid black;
+    font-family: ABCFavoriteMono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 16px;
+}
+
+/*--------OUR RANGE-------*/
+
+/*--------BANNER-------*/
+
+.banner{
+    margin-top: 3.2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.img2{
+    width: 100%;  
+}
+
+.img2 img{
+    width: 100%;
+    object-fit: cover;
+    z-index: -999;
+}
+
+.img2__desc{
+    width: 40%;
+    position: absolute;
+    top: 197.875em;
+    right: 18.3vh;
+    z-index: 1000;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.img2__signature{
+    font-family:ABCFavoriteMono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FCFCF5;
+}
+
+.img2__text{
+    margin-top: 5px;
+    font-family: ABCArizonaMixTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 66px;
+    letter-spacing: -0.03em;
+    color: #FCFCF5;
+}
+
+.img2__button{
+    margin-top: 30px;
+    width: 199px;
+    height: 44px;
+    background: #FCFCF5;
+    border-radius: 6px;
+    font-family: ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+.img3{
+    margin-top: 3.2vh;
+    width: 100%;
+   
+}
+
+.img3 img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.img3__desc{
+    width: 40%;
+    position: absolute;
+    top: 449.4vh;
+    left: 30vh;
+    z-index: 1000;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.img3__signature{
+    font-family:ABCFavoriteMono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FCFCF5;
+}
+
+.img3__text{
+    margin-top: 5px;
+    font-family: ABCArizonaMixTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 66px;
+    letter-spacing: -0.03em;
+    color: #FCFCF5;
+}
+
+.img3__button{
+    margin-top: 30px;
+    width: 108px;
+    height: 44px;
+    background: #FCFCF5;
+    border-radius: 6px;
+    font-family: ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+/*--------BANNER------*/
