@@ -9,6 +9,11 @@
     src: url(./assets/fonts/ABCFavorit-Regular.woff);
  }
 
+ @font-face {
+    font-family: ABCFavoriteTrialLight;
+    src: url(./assets/fonts/ABCFavorit-Light.woff);
+ }
+
 
  @font-face {
     font-family: ABCArizonaMixLight;
@@ -246,7 +251,7 @@ width: 100%;
 
   .cart__img{
       float: right;
-      margin-top: 20px;
+      margin-top: 15px;
   }
 
   .logo__img2{
@@ -256,7 +261,7 @@ width: 100%;
 
   .cart__img2{
       float: right;
-      margin-top: 30px;
+      margin-top: 20px;
       margin-right: 20px;
   }
 
@@ -291,15 +296,25 @@ width: 100%;
 
 .mobile__img1__background{
     position: relative;
+    margin-top: 30px;
 }
 
+.mobile__img1__background::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(73.81deg, rgba(15, 14, 9, 0.3) 36.4%, rgba(15, 14, 9, 0) 78.65%);
+}
+
+
 .mobile__img1__background img{
-    margin-top: 30px;
     width: 100%;
     height: 26.25em;
-    object-fit: cover;
+    object-fit:cover;
     z-index: -999;
-    background-image: linear-gradient(73.81deg, rgba(15, 14, 9, 0.3) 36.4%, rgba(15, 14, 9, 0) 78.65%);
 }
 
 .mobile__img1__description{
@@ -309,6 +324,7 @@ width: 100%;
     font-weight: normal;
     font-size: 1.125rem;
     line-height: 30px;
+    z-index: 1;
 
     position: absolute;
     bottom: 98px;
@@ -324,6 +340,7 @@ width: 100%;
     font-size: 16px;
     line-height: 100%;
     color: #0F0E09;
+    z-index: 1;
 
     position: absolute;
     bottom: 30px;
@@ -343,7 +360,7 @@ width: 100%;
 
 .mobile__gallery__text{
     margin-top: 36px;
-    font-family: ABCFavoriteTrial;
+    font-family: ABCFavoriteTrialLight;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -381,15 +398,25 @@ width: 100%;
 
 .mobile__img2{
     position: relative; 
+    margin-top: 30px;
+}
+
+.mobile__img2::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(73.81deg, rgba(15, 14, 9, 0.3) 36.4%, rgba(15, 14, 9, 0) 78.65%);
 }
 
 .mobile__img2 img{
-    padding-top: 30px;
+   
     width: 100%;
     height: 32.0625rem;
     object-fit: cover;
     z-index: -999;
-    background: linear-gradient(359.78deg, rgba(15, 14, 9, 0.3) 10.87%, rgba(15, 14, 9, 0) 42.38%);
 }
 
 .mobile__img2__desc{
@@ -526,9 +553,9 @@ width: 100%;
 
 .mobile__address{
     width: 50%;
-    font-family: ABCFavoriteTrial;
+    font-family: ABCFavoriteTrialLight;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     font-feature-settings: 'ss03' on;
@@ -544,9 +571,9 @@ width: 100%;
 }
 
 .mobile__contact{
-    font-family: ABCFavoriteTrial;
+    font-family: ABCFavoriteTrialLight;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     font-feature-settings: 'ss03' on;
