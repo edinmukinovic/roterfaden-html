@@ -681,6 +681,9 @@ body{
     display: none;
 }
 
+.responsive__footer{
+    display: none;
+}
 
 /*****************************************index.php********************************************/
 
@@ -1029,6 +1032,15 @@ margin-top: 48px;
 
     margin-top: 16px;
     text-align: end;
-
 }
+
+
+
+.mobile__news{
+    display: none;
+}
+
+
+
 /********************************************news.php*******************************************/
+

@@ -123,7 +123,7 @@ body{
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 999;
     top: 0;
     left: 0;
     background-color: white;
@@ -657,3 +657,244 @@ width: 100%;
 
 
 /*******MOBILE DESIGN****/
+
+
+
+
+
+/************************NEWS*********************/
+
+
+.desktop{
+    display: none;
+}
+
+
+.mobile__container__news--title{
+    font-family:ABCArizonaMixRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 42px;
+
+ 
+    letter-spacing: -0.03em;
+    color: #0F0E09;
+
+    margin-top: 18px;
+}
+
+.mobile__container__news__image{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.mobile__container__news__image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.mobile__news__title{
+    font-family: ABCArizonaMixRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #0F0E09;
+
+    margin-top: 18px;
+}
+
+.mobile__news__text{
+    font-family: ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    font-feature-settings: 'ss03' on;
+    color: #0F0E09;
+
+    margin-top: 12px;
+}
+
+
+.mobile__conversation__title{
+    font-family: ABCFavoriteMono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    text-transform: uppercase;
+    color: #0F0E09;
+
+    margin-top: 47px;
+    border-bottom: 1px solid black;
+    padding-bottom: 19px;
+}
+
+
+
+
+
+.mobile__conversation__articles{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.mobile__conversation_article{
+    width: 85%;
+    margin-top: 36px;
+}
+
+.mobile__article__image{
+    width: 100%;
+}
+
+.mobile__article__image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.mobile__article__title{
+    font-family: ABCArizonaMixRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    width: 100%;
+
+    color: #0F0E09;
+    margin-top: 18px;
+
+}
+
+.mobile__article__text{
+    font-family:  ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    font-feature-settings: 'ss03' on;
+
+    color: #0F0E09;
+    margin-top: 12px;
+    width: 100%;
+}
+
+.conversation__stories{
+    margin-top: 48px;
+}
+
+.conversation__stories__image{
+    width: 100%;
+}
+
+.conversation__stories__image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.conversation__stories__title{
+    font-family: ABCArizonaMixRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    width: 100%;
+
+    color: #0F0E09;
+    margin-top: 18px;
+}
+
+.conversation__stories__text{
+    font-family:  ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    font-feature-settings: 'ss03' on;
+
+    color: #0F0E09;
+    margin-top: 12px;
+    width: 100%;
+    padding-bottom: 6px;
+}
+
+
+.mobile__roter__stories{
+    margin-top: 48px;
+}
+
+.roterfaden__heading{
+    font-family: ABCFavoriteMono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    text-transform: uppercase;
+    color: #0F0E09;
+
+    margin-top: 47px;
+    border-bottom: 1px solid black;
+    padding-bottom: 13px;
+}
+
+.roter__stories__image{
+    margin-top: 35px;
+    width: 100%;
+}
+
+.roter__stories__image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.roter__stories__title{
+    font-family: ABCArizonaMixRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    width: 100%;
+
+    color: #0F0E09;
+    margin-top: 18px;
+}
+
+.roter__stories__text{
+    font-family:  ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    font-feature-settings: 'ss03' on;
+
+    color: #0F0E09;
+    margin-top: 12px;
+    width: 100%;
+}
+
+
+.mobile__showmore{
+    margin-top: 76px;
+    font-family: ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 30px;
+    text-align: right;
+    letter-spacing: -0.05em;
+    font-feature-settings: 'ss03' on;
+    color: #0F0E09;
+
+
+}
+
+/************************NEWS*********************/
