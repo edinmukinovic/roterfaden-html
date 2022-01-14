@@ -41,7 +41,7 @@
 
             <div class="container__first__article">
 
-            <img src="./assets/images/FirstContainer.svg">
+            <img src="./assets/images/containerfirst.jpg">
 
             <div class="container__first__content__title">
             Short Visits: Some of our Customers
@@ -68,7 +68,7 @@
 
     <div class="conversations__articles">
         <div class="conversation__article">
-        <img src="./assets/images/7f2f6172148993.svg" alt="">
+        <img src="./assets/images/conversation.jpg" alt="">
 
         <div class="conversation__article__title">
         Short Visits: Some of our Customers
@@ -84,7 +84,7 @@
     </div>
 
         <div class="conversation__article">
-        <img src="./assets/images/7f2f6172148993-1.svg" alt="">
+        <img src="./assets/images/conversation2.jpg" alt="">
 
         <div class="conversation__article__title">
         Short Visits: Some of our Customers
@@ -101,7 +101,7 @@
      
 
         <div class="conversation__article">
-        <img src="./assets/images/7f2f6172148993-2.svg" alt="">
+        <img src="./assets/images/conversation3.jpg" alt="">
 
         <div class="conversation__article__title">
         Short Visits: Some of our Customers
@@ -125,7 +125,7 @@
    
     <div class="container__stories__article">
         <div class="container__stories__article__img">
-           <img src="./assets/images/stories1.svg" alt="">
+           <img src="./assets/images/stories.jpg" alt="">
         </div>
 
         <div class="container__stories__article__story">
@@ -144,7 +144,7 @@
 
     <div class="container__stories__article">
         <div class="container__stories__article__img">
-           <img src="./assets/images/stories2.svg" alt="">
+           <img src="./assets/images/stories2.jpg" alt="">
         </div>
 
         <div class="container__stories__article__story">
@@ -179,7 +179,7 @@
         we take a closer look at work and ways of organisation. 
         </div>
 
-        <img src="./assets/images/secondcontainer.svg">
+        <img src="./assets/images/containersecond.jpg">
 
         </div>
 
@@ -225,7 +225,7 @@
 
     <div class="staff__picks__article">
         <div class="article__image">
-            <img src="./assets/images/gallery3.svg" alt="">
+            <img src="./assets/images/gallery23.jpg" alt="">
         </div>
 
         <div class="article__title">
@@ -242,7 +242,7 @@
 
     <div class="staff__picks__article">
         <div class="article__image">
-            <img src="./assets/images/gallery4.svg" alt="">
+            <img src="./assets/images/gallery24.jpg" alt="">
         </div>
 
         <div class="article__title">

@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" media="screen and (min-width: 1150px)" href="../style.css">
-    <link rel="stylesheet" media="screen and (max-width: 1150px)" href="../responsive.css">
-
-
-
-        <title>Roterfaden - html</title>
-        <link rel="icon" href="../assets/images/Stamps.svg">
-    </head>
-
-
-
-    <body>
 
         <!-----Navigation-->
         <div class="nav">
@@ -46,6 +28,13 @@
             </div>
         </div>
  <!-----Navigation-->
+
+
+
+
+
+
+
 
 
 
@@ -123,6 +112,3 @@
 
 
 
-
-    </body>
-</html>
