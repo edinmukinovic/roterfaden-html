@@ -1,0 +1,1 @@
+<div class="discover">Discover our <br> customers stories</div>
