@@ -7,10 +7,11 @@ getLayout("shop__first", array(
 ));
 
 getLayout("shop__features", array(
-   
+    'featuresimageleft' => "./assets/images/shopgalleryleft.jpg",
     'left__description' => 'All our',
     'left__headline' => 'Taschenbegleiter <br> SO_20 Limited <br> Edition white',
 
+    'featuresimageright' => "./assets/images/shopgalleryright.jpg",
     'right__description' => 'All our',
     'right__headline' => 'Inserts for the <br> Taschenbegleiter',
 ));

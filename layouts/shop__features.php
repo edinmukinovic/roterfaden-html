@@ -7,7 +7,7 @@
     <div class="features__gallery">
 
         <div class="features__gallery__left">
-            <img src="./assets/images/shopgalleryleft.jpg">
+        <img src="<?php echo $data["featuresimageleft"]; ?>">
 
             <div class="gallery__left__description">
             <?php echo $data["left__description"]; ?>
@@ -22,7 +22,7 @@
         </div>
 
         <div class="features__gallery__right">
-            <img src="./assets/images/shopgalleryright.jpg">
+        <img src="<?php echo $data["featuresimageright"]; ?>">
 
             <div class="gallery__right__description">
             <?php echo $data["right__description"]; ?>
