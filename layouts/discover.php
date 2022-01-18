@@ -1,1 +1,1 @@
-<div class="discover">Discover our <br> customers stories</div>
+<div class="discover"> <?php echo $data["discover-text"]; ?></div>

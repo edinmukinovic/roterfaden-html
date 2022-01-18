@@ -104,18 +104,18 @@ body{
 
 /*--------IMG1-------*/
 
-.img1{
+.intro{
     margin-top: 31px;
     display: flex;
 }
 
 
-.img1__background{
+.intro__background{
     width: 100%; 
     position: relative;
 }
 
-.img1__background::after {
+.intro__background::after {
     content: '';
     position: absolute;
     top: 0;
@@ -125,12 +125,12 @@ body{
     background-image: linear-gradient(73.81deg, rgba(15, 14, 9, 0.3) 36.4%, rgba(15, 14, 9, 0) 78.65%);
 }
 
-.img1__background img{
+.intro__background img{
     width: 100%;
     object-fit: cover;
 }
 
-.img1__text{ 
+.intro__background-text{ 
     position: absolute;
     bottom: 12.75rem;
     left: 2.875rem;
@@ -145,7 +145,7 @@ body{
    
 }
 
-.img1__description{
+.intro__background-description{
     color: #FCFCF5;
     font-family: ABCFavoriteTrial;
     font-style: normal;
@@ -159,7 +159,7 @@ body{
     left: 2.875rem;
 }
 
-.img1__button{
+.intro__background-button{
     width: 169px;
     height: 44px;
     font-family: ABCFavoriteTrial;
@@ -179,14 +179,14 @@ body{
     left: 2.875rem;
 }
 
-.img1__button img{
+.intro__background-button img{
     width: auto;
     height: auto;
 
 
 }
 
-.img1__signature{
+.intro__background-signature{
     font-family: Manu;
     font-style: italic;
     font-weight: normal;
@@ -211,19 +211,19 @@ body{
    
 }
 
-.gallery__left{
+.gallery__first{
     width: 50%;
     margin-right: 0.6875em;
     position: relative;
 }
 
-.gallery__right{
+.gallery__second{
     width: 50%;
     margin-left: 0.6875em;
     justify-content: end;
 }
 
-.left__text{
+.gallery__first-text{
         font-family: ABCFavoriteTrialLight;
         font-style: normal;
         font-weight: normal;
@@ -231,7 +231,7 @@ body{
         line-height: 42px;
     }
 
-.left__signature{
+.gallery__first-signature{
     margin-top: 1em;
     float: right;
     font-family: Manu;
@@ -243,19 +243,26 @@ body{
     color: #1082B3;;
 }
 
-.left__img{
+.gallery__first-image{
     margin-top: 13.75em;
 }
 
-.left__img img{
+.gallery__first-image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery__second-image {
     width: 100%;
 }
 
-.right__img img {
+.gallery__second-image img{
     width: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
-.right__signature{
+.gallery__second-signature{
     margin-top: 18.5vh;
     float: right;
     font-family: Manu;
@@ -267,7 +274,7 @@ body{
     color: #1082B3;;
 }
 
-.right__text{
+.gallery__second-text{
         margin-top: 29vh;
         font-family: ABCFavoriteTrialLight;
         font-style: normal;
@@ -278,7 +285,7 @@ body{
         padding-right: 0px;
 }
 
-.right__text a{
+.gallery__second a{
     font-family: ABCArizonaMixRegular;
     font-style: normal;
     font-weight: normal;
@@ -315,12 +322,12 @@ body{
     flex-direction: column;
 }
 
-.img2{
+.banner__first{
     width: 100%;
     position: relative; 
 }
 
-.img2::after {
+.banner__first img::after {
     content: '';
     position: absolute;
     top: 0;
@@ -331,12 +338,12 @@ body{
 }
 
 
-.img2 img{
+.banner__first img{
     width: 100%;
     object-fit: cover;
 }
 
-.img2__desc{
+.banner__first-desc{
     width: 40%;
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -347,7 +354,7 @@ body{
     z-index: 1;
 }
 
-.img2__signature{
+.banner__first-signature{
     font-family:ABCFavoriteMono;
     font-style: normal;
     font-weight: normal;
@@ -356,7 +363,7 @@ body{
     color: #FCFCF5;
 }
 
-.img2__text{
+.banner__first-text{
     margin-top: 5px;
     font-family: ABCArizonaMixTrial;
     font-style: normal;
@@ -367,7 +374,7 @@ body{
     color: #FCFCF5;
 }
 
-.img2__button{
+.banner__first-button{
     margin-top: 30px;
     width: 199px;
     height: 44px;
@@ -383,14 +390,14 @@ body{
 }
 
 
-.img3{
+.banner__second{
     margin-top: 3.2vh;
     width: 100%;
     position: relative;
 }
 
 
-.img3::after {
+.banner__second img::after {
     content: '';
     position: absolute;
     top: 0;
@@ -400,12 +407,12 @@ body{
     background-image: linear-gradient(359.78deg, rgba(15, 14, 9, 0.3) 10.87%, rgba(15, 14, 9, 0) 42.38%);
 }
 
-.img3 img{
+.banner__second img{
     width: 100%;
     object-fit: cover;
 }
 
-.img3__desc{
+.banner__second-desc{
     width: 40%;
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -416,7 +423,7 @@ body{
     z-index: 1;
 }
 
-.img3__signature{
+.banner__second-signature{
     font-family:ABCFavoriteMono;
     font-style: normal;
     font-weight: normal;
@@ -425,7 +432,7 @@ body{
     color: #FCFCF5;
 }
 
-.img3__text{
+.banner__second-text{
     margin-top: 5px;
     font-family: ABCArizonaMixTrial;
     font-style: normal;
@@ -436,7 +443,7 @@ body{
     color: #FCFCF5;
 }
 
-.img3__button{
+.banner__second-button{
     margin-top: 30px;
     width: 108px;
     height: 44px;
@@ -517,11 +524,11 @@ body{
     margin-top: 42px;
 }
 
-.gallery2__img img{
+.gallery2-image img{
     width: 100%;
 }
 
-.gallery2__title{
+.gallery2-title{
     margin-top: 18px;
     font-family: ABCArizonaMixRegular;
     font-style: normal;
@@ -531,7 +538,7 @@ body{
     color: #0F0E09;
 }
 
-.gallery2__text{
+.gallery2-text{
     margin-top: 12px;
     width: 90%;
     font-family:  ABCFavoriteTrial;
@@ -685,362 +692,5 @@ body{
     display: none;
 }
 
-/*****************************************index.php********************************************/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/********************************************news.php*******************************************/
-
-.container__first{
-    margin-top: 30px;
-    border-top: 1px solid black;
-}
-
-
-/*******container___first__links*******/
-
-.container__first__links {
-    margin-top: 24px;
-    margin-left: 10px;
- 
-}
-
-.container__first__links a{
-    text-decoration: none;
-    font-family: ABCFavoriteMono;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 16px;
-    padding-right: 40px;
-
-  
-    align-items: center;
-    text-transform: uppercase;
-
-
-    color: #0F0E09;
-    opacity: 0.7;
-}
-
-.container__first__links a:nth-child(2){
-    padding-right: 30px;
-}
-
-/*******container___first__links*******/
-
-
-/*******container___first__title*******/
-
-.container__first__title{
-    margin-top: 25px;
-    
-
-    font-family: ABCArizonaMixRegular;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 120px;
-    line-height: 120px;
-    letter-spacing: -0.07em;
-    color: #0F0E09;
-}
-
-
-.container__first__content{
-    width: 100%;
-    margin-top: 60px;
-    z-index: 1;
-    display: flex;
-    justify-content: flex-end;
-  
-}
-
-
-.container__first__article{ 
-    width: 75%;
-    margin-right: -40px;
-    justify-content: flex-end;
-}
-
-.container__first__article img{
-    width: 100%;
-    object-fit: cover;
-}
-
-
-
-.container__first__content__title{
-font-family: ABCArizonaMixRegular;
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 105%;
-letter-spacing: -0.02em;
-color: #0F0E09;
-margin-top: 48px;
-}
-
-.container__first__content__text{
-    margin-top: 12px;
-    font-family: ABCFavoriteTrial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    font-feature-settings: 'ss03' on;
-    color: #0F0E09;
-    width: 60%;
-
-}
-
-/*******container___first__title*******/
-
-
-
-
-/*******conversations*******/
-
-.conversations{
-    margin-top: 137px;
-   
-}
-
-.conversations__title{
-    font-family: ABCFavoriteMono;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 16px;
-
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #0F0E09;
-
-    padding-bottom: 2vh;
-    border-bottom: 1px solid black;
-
-}
-
-
-.conversations__articles{
-    margin-top: 43px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.conversation__article{
-    width: 32.6%;
-}
-
-.conversation__article img{
-    width: 100%;
-    object-fit: cover;
-}
-
-.conversation__article__title{
-    font-family: ABCArizonaMixRegular;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 105%;
-    letter-spacing: -0.02em;
-    color: #0F0E09;
-    margin-top: 18px;
-}
-
-.conversation__article__text{
-    margin-top: 12px;
-    font-family: ABCFavoriteTrial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    font-feature-settings: 'ss03' on;
-    color: #0F0E09;
-    width: 80%;
-    
-}
-
-/*******conversations*******/
-
-
-/*******container__stories*******/
-
-.container__stories{
-    margin-top: 94px;
-    border-top: 1px solid black;
-}
-
-.container__stories__article{
-    margin-top: 42px;
-    border-bottom: 1px solid black;
-    padding-bottom: 52px;
-    display: flex;
-    width: 100%;
-}
-
-.container__stories__article__img{
-    width: 50%;
-    padding-right: 24px;
-}
-
-.container__stories__article img{
-  width: 100%;
-  object-fit: cover;
-}
-
-.container__stories__article__story{
-    width: 50%;
-    padding-left: 24px;
-}
-
-.article__story__title{
-    font-family: ABCArizonaMixRegular;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 105%;
-    letter-spacing: -0.02em;
-    color: #0F0E09;
-    margin-top: 45px;
-}
-
-.article__story__text{
-    margin-top: 12px;
-    font-family: ABCFavoriteTrial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    font-feature-settings: 'ss03' on;
-    color: #0F0E09;
-    width: 85%;
-}
-
-/*******container__stories*******/
-
-/*******container__second__content*******/
-
-.container__second__content{
-    margin-top: 120px;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-}
-
-
-.container__second__article{ 
-    width: 75%;
-    margin-right: -40px;
-    justify-content: flex-end;
-}
-
-.container__second__article img{
-    width: 100%;
-    object-fit: cover;
-    margin-top: 42px;
-}
-
-/*******container__second__content*******/
-
-.staff__picks{
-    margin-top: 174px;
-}
-
-.staff__picks__title{
-    font-family: ABCFavoriteMono;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 16px;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #0F0E09;
-
-    border-bottom: 1px solid black;
-    padding-bottom: 19px;
-}
-
-.staff__picks__articles{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.staff__picks__article{
-    width: 49.5%;
-    margin-top: 42px;
-    padding-bottom: 84px;
-}
-
-.article__image img{
-    width: 100%;
-    object-fit: cover;
-}
-
-.article__title{
-    font-family: ABCArizonaMixRegular;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 105%;
-    letter-spacing: -0.02em;
-    color: #0F0E09;
-    margin-top: 18px;
-}
-
-.article__text{
-    margin-top: 12px;
-    font-family: ABCFavoriteTrial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    font-feature-settings: 'ss03' on;
-    color: #0F0E09;
-    width: 95%;
-}
-
-
-.show__more{
-    font-family: ABCFavoriteTrial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 60px;
-    line-height: 30px;
-
-    letter-spacing: -0.05em;
-    font-feature-settings: 'ss03' on;
-    color: #0F0E09;
-
-    margin-top: 16px;
-    text-align: end;
-}
-
-
-
-.mobile__news{
-    display: none;
-}
-
-
-
-/********************************************news.php*******************************************/
 

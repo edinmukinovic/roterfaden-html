@@ -1,32 +1,34 @@
 <div class="banner">
 
-    <div class="img2">
-        <img src="./assets/images/img3.png" >
+    <div class="banner__first">
+        <img src="<?php echo $data["banner__first-image"]; ?>" >
 
-        <div class="img2__desc">
-            <div class="img2__signature">
-                ALL OUR
+        <div class="banner__first-desc">
+            <div class="banner__first-signature">
+            <?php echo $data["banner__first-signature"]; ?>
             </div>
-            <div class="img2__text">
-                Taschenbegleiter<br>Editions
+
+            <div class="banner__first-text">
+            <?php echo $data["banner__first-text"]; ?>
             </div>
-            <button class="img2__button">Discover the collection</button>
+            
+            <button class="banner__first-button">Discover the collection</button>
         </div> 
     </div>
 
-    <div class="img3">
-        <img src="./assets/images/img4.png" alt="">
+    <div class="banner__second">
+        <img src=" <?php echo $data["banner__second-image"]; ?>" alt="">
 
 
-        <div class="img3__desc">
-            <div class="img3__signature">
-                OUR RANGE OF
+        <div class="banner__second-desc">
+            <div class="banner__second-signature">
+            <?php echo $data["banner__second-signature"]; ?>                
             </div>
-            <div class="img3__text">
-                Inserts for the <br>
-                Taschenbegleiter
+            
+            <div class="banner__second-text">
+            <?php echo $data["banner__second-text"]; ?>
             </div>
-            <button class="img3__button">See them</button>
+            <button class="banner__second-button">See them</button>
         </div> 
     </div>
 </div>

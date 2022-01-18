@@ -1,19 +1,20 @@
-<div class="img1">
-    <div class="img1__background">
-        <img src="./assets/images/BG VIDEO.jpg" alt="">
+<div class="intro">
+    <div class="intro__background">
+        <img src="<?php echo $data["intro__image"]; ?>" />
 
 
-            <div class="img1__text">
+            <div class="intro__background-text">
                 <?php echo $data["headline"]; ?>
             </div>
 
-            <div class="img1__description">
-                Thoughtful, versatile, sustainable design 100% made in Germany.
+            <div class="intro__background-description">
+            <?php echo $data["intro__description"]; ?>
+                
             </div>
 
-            <button class="img1__button">Browse in Shop  <img src="./assets/images/Path.png" style="margin-left: 6px;"></button>
+            <button class="intro__background-button">Browse in Shop  <img src="./assets/images/Path.png" style="margin-left: 6px;"></button>
         
 
-        <div class="img1__signature">*For life, work, <br> chaos & routine</div>
+        <div class="intro__background-signature"><?php echo $data["intro__signature"]; ?></div>
     </div>
 </div>

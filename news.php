@@ -2,7 +2,7 @@
 
 include './includes/header.php'; 
 
-getLayout("container__first", array());
+getLayout("mainnews", array());
 
 getLayout("conversations", array());
 
