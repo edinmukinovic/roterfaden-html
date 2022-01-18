@@ -22,6 +22,7 @@ getLayout("shop__products", array(
 
 getLayout("shop__banner", array(
     'shop__banner__right__text' => ' Founded in 2006, our products are handcrafted with <br> high-quality materials and great emphasis on sustainability and design.',
+    'image' => "./assets/images/shopbanner.jpg"
 ));
 
 getLayout("shop__suggestion", array(

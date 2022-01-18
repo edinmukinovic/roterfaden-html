@@ -14,6 +14,8 @@
         <?php echo $data["shop__banner__right__text"]; ?>
         </div>
 
-        <img src="./assets/images/shopbanner.jpg" alt="">
+      <img src="<?php echo $data["image"]; ?>">
+
+
     </div>
 </div>
