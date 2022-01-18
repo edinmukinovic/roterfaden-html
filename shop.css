@@ -1,0 +1,508 @@
+@font-face {
+    font-family: ABCFavoriteMono;
+    src: url(./assets/fonts/ABCFavoritMono-Light.woff);
+ }
+
+ @font-face {
+    font-family: ABCFavoriteTrial;
+    src: url(./assets/fonts/ABCFavorit-Regular.woff);
+ }
+
+ @font-face {
+    font-family: ABCFavoriteTrialLight;
+    src: url(./assets/fonts/ABCFavorit-Light.woff);
+ }
+
+ @font-face {
+    font-family: ABCArizonaMixLight;
+    src: url(./assets/fonts/ABCArizonaMix-Light.woff);
+ }
+
+ @font-face {
+    font-family: ABCArizonaMixRegular;
+    src: url(./assets/fonts/ABCArizonaMix-Regular.woff);
+ }
+
+ @font-face {
+    font-family: Manu;
+    src: url(./assets/fonts/ManuInformal.woff);
+ }
+
+ @font-face {
+    font-family: ABCFavoriteBold;
+    src: url(./assets/fonts/ABCFavorit-Bold.woff);
+ }
+
+ .shop__first{
+     border-top: 1px solid black;
+     margin-top: 30px;
+ }
+
+.shop__first__title{
+    margin-left: 0px;
+    margin-top: 25px;
+    font-family: ABCArizonaMixLight;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 120px;
+    line-height: 120px;
+
+    letter-spacing: -0.04em;
+    color: #0F0E09;
+
+}
+
+.shop__features{
+    margin-top: 29px;
+    margin-bottom: 125px;
+}
+
+.features__title{
+    font-family: ABCFavoriteMono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #0F0E09;
+
+    padding-bottom: 19px;
+    border-bottom: 1px solid black;
+}
+
+.features__gallery{
+    margin-top: 29px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.features__gallery__left{
+    width: 50%;
+    margin-right: 0.6875em;
+    position: relative;
+   
+}
+
+.features__gallery__left img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.features__gallery__left::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(359.78deg, rgba(15, 14, 9, 0.3) 10.87%, rgba(15, 14, 9, 0) 42.38%);
+    transform: rotate(-180deg);
+    
+}
+
+
+
+.gallery__left__description{
+    position: absolute;
+    top: 60px;
+    left: 60px;
+
+    font-family: ABCFavoriteMono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    z-index: 1;
+
+    color: #FCFCF5;
+}
+
+.gallery__left__headline{
+    position: absolute;
+    top: 66px;
+    left: 60px;
+    margin-top: 5px;
+
+    font-family: ABCArizonaMixLight;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: -0.03em;
+    z-index: 1;
+
+    color: #FCFCF5;
+
+
+}
+
+.gallery__left__button{
+    position: absolute;
+    top: 351px;
+    left: 60px;
+
+    justify-content: center;
+
+    
+
+    background: #FCFCF5;
+    border-radius: 6px;
+
+    font-family: ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    padding: 14px;
+
+    letter-spacing: -0.02em;
+    font-feature-settings: 'ss03' on;
+    z-index: 1;
+
+    color: #0F0E09;
+}
+
+
+
+.features__gallery__right{
+    width: 50%;
+    margin-left: 0.6875em;
+    position: relative;
+}
+
+.features__gallery__right img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.features__gallery__right::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(359.78deg, rgba(15, 14, 9, 0.3) 10.87%, rgba(15, 14, 9, 0) 42.38%);
+}
+
+
+.gallery__right__description{
+    position: absolute;
+    bottom: 300px;
+    left: 60px;
+
+    font-family: ABCFavoriteMono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    z-index: 1;
+
+    color: #FCFCF5;
+}
+
+.gallery__right__headline{
+    position: absolute;
+    bottom: 134px;
+    left: 60px;
+    margin-top: 5px;
+
+    font-family: ABCArizonaMixLight;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: -0.03em;
+    z-index: 1;
+
+    color: #FCFCF5;
+
+
+}
+
+.gallery__right__button{
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+
+    justify-content: center;
+
+    width: 108px;
+    height: 44px;
+
+    background: #FCFCF5;
+    border-radius: 6px;
+
+    font-family: ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+
+    letter-spacing: -0.02em;
+    font-feature-settings: 'ss03' on;
+    z-index: 1;
+
+    color: #0F0E09;
+}
+
+
+.shop__products{
+    width: 100%;
+}
+
+.products__navigation{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.products__navigation__filter{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #0F0E09;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+    height: 44px;
+    width: 113px;
+
+    font-family: ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+
+   
+    text-align: center;
+    padding: 14px;
+    letter-spacing: -0.02em;
+    font-feature-settings: 'ss03' on;
+
+    color: #0F0E09;
+}
+
+
+.products__navigation__links a{
+    text-decoration: none;
+    font-family: ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    font-feature-settings: 'ss03' on;
+
+    color: #0F0E09;
+    margin-left: 30px;
+
+}
+
+.products__navigation__links a:nth-child(1){
+    padding-bottom: 9px;
+    border-bottom: 2px solid black;
+}
+
+.products__navigation__sort{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #0F0E09;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+    height: 44px;
+    width: 113px;
+
+    font-family: ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+
+    align-items: center;
+    text-align: center;
+    padding: 14px;
+    letter-spacing: -0.02em;
+    font-feature-settings: 'ss03' on;
+
+    color: #0F0E09;
+
+}
+
+
+.shop__products__grid{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.products__grid__card{
+    width: 32.8%;
+    padding-bottom: 43px;
+    border-bottom: 1px solid #0F0E09;
+}
+
+.products__grid__card img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.products__grid__card__info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.card__info__name{
+    justify-content: flex-start;
+  
+    font-family: ABCArizonaMixLight;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #0F0E09;
+
+
+}
+
+.card__info__price{
+    justify-content: flex-end;
+
+    font-family: ABCFavoriteMono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    text-transform: uppercase;
+
+    color: #0F0E09;
+
+}
+
+
+.shop__banner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 145px;
+}
+
+.shop__banner__left{
+    margin-top: 512px;
+    width: 25%;
+    justify-content: flex-start;
+    font-family: Manu;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'onum' on;
+    padding-right: 35px;
+
+    color: #1082B3;
+}
+
+.shop__banner__left__text{
+    width: 90%;
+    font-family: Manu;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'onum' on;
+    padding-right: 35px;
+
+    color: #1082B3;
+
+}
+
+.shop__banner__left img{
+    padding-bottom: 33px;
+}
+
+
+.shop__banner__right{
+    margin-top: 120px;
+    width: 75%;
+    margin-right: -40px;
+    justify-content: flex-end;
+}
+
+.shop__banner__right img{
+    margin-top: 36px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.shop__banner__right__text{
+    width: 60%;
+    font-family: ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+    font-feature-settings: 'ss03' on;
+
+    color: #0F0E09;
+}
+
+.shop__suggestion{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 88px;
+}
+
+.suggestion__card{
+    width: 32.8%;
+}
+
+.suggestion__card img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.suggestion__info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.suggestion__name{
+    justify-content: flex-start;
+
+    font-family: ABCArizonaMixLight;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+
+    color: #0F0E09;
+}
+
+.suggestion__price{
+    justify-content: flex-end;
+
+    font-family: ABCFavoriteMono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+
+    color: #0F0E09;
+}
+
