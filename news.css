@@ -137,16 +137,16 @@ margin-top: 48px;
     justify-content: space-between;
 }
 
-.conversation__article{
+.conversation__articles-card{
     width: 32.6%;
 }
 
-.conversation__article img{
+.conversation__articles-card img{
     width: 100%;
     object-fit: cover;
 }
 
-.conversation__article__title{
+.conversation__articles-title{
     font-family: ABCArizonaMixRegular;
     font-style: normal;
     font-weight: normal;
@@ -157,7 +157,7 @@ margin-top: 48px;
     margin-top: 18px;
 }
 
-.conversation__article__text{
+.conversation__articles-text{
     margin-top: 12px;
     font-family: ABCFavoriteTrial;
     font-style: normal;
@@ -175,12 +175,12 @@ margin-top: 48px;
 
 /*******container__stories*******/
 
-.container__stories{
+.stories{
     margin-top: 94px;
     border-top: 1px solid black;
 }
 
-.container__stories__article{
+.stories__article{
     margin-top: 42px;
     border-bottom: 1px solid black;
     padding-bottom: 52px;
@@ -188,22 +188,22 @@ margin-top: 48px;
     width: 100%;
 }
 
-.container__stories__article__img{
+.stories__article-image{
     width: 50%;
     padding-right: 24px;
 }
 
-.container__stories__article img{
+.stories__article-image img{
   width: 100%;
   object-fit: cover;
 }
 
-.container__stories__article__story{
+.stories__article-story{
     width: 50%;
     padding-left: 24px;
 }
 
-.article__story__title{
+.stories__article-title{
     font-family: ABCArizonaMixRegular;
     font-style: normal;
     font-weight: normal;
@@ -214,7 +214,7 @@ margin-top: 48px;
     margin-top: 45px;
 }
 
-.article__story__text{
+.stories__article-text{
     margin-top: 12px;
     font-family: ABCFavoriteTrial;
     font-style: normal;
@@ -230,7 +230,7 @@ margin-top: 48px;
 
 /*******container__second__content*******/
 
-.container__second__content{
+.second__news{
     margin-top: 120px;
     width: 100%;
     display: flex;
@@ -238,13 +238,13 @@ margin-top: 48px;
 }
 
 
-.container__second__article{ 
+.second__news-article{ 
     width: 75%;
     margin-right: -40px;
     justify-content: flex-end;
 }
 
-.container__second__article img{
+.second__news-article img{
     width: 100%;
     object-fit: cover;
     margin-top: 42px;
@@ -252,11 +252,11 @@ margin-top: 48px;
 
 /*******container__second__content*******/
 
-.staff__picks{
+.staff-picks{
     margin-top: 174px;
 }
 
-.staff__picks__title{
+.staff-picks-title{
     font-family: ABCFavoriteMono;
     font-style: normal;
     font-weight: normal;
@@ -270,24 +270,24 @@ margin-top: 48px;
     padding-bottom: 19px;
 }
 
-.staff__picks__articles{
+.staff-picks__articles{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.staff__picks__article{
+.staff-picks__article-card{
     width: 49.5%;
     margin-top: 42px;
     padding-bottom: 84px;
 }
 
-.article__image img{
+.staff-picks__article-image img{
     width: 100%;
     object-fit: cover;
 }
 
-.article__title{
+.staff-picks__article-title{
     font-family: ABCArizonaMixRegular;
     font-style: normal;
     font-weight: normal;
@@ -298,7 +298,7 @@ margin-top: 48px;
     margin-top: 18px;
 }
 
-.article__text{
+.staff-picks__article-text{
     margin-top: 12px;
     font-family: ABCFavoriteTrial;
     font-style: normal;

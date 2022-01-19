@@ -8,24 +8,21 @@
 </div>
 
 <div class="mainnews-title">
-    News
+<?php echo $data["mainnews-title"]; ?>
 </div>
 
 <div class="mainnews__content">
 
         <div class="mainnews__content__article">
 
-        <img src="./assets/images/containerfirst.jpg">
+        <img src="<?php echo $data["mainnews-article-image"]; ?>">
 
         <div class="mainnews__content__article-title">
-        Short Visits: Some of our Customers
+        <?php echo $data["mainnews-article-title"]; ?>
         </div>
 
         <div class="mainnews__content__article-text">
-        Our dear and valued customers use our TASCHENBEGLEITER for the things that matter to them, 
-        sometimes in ways we hadn’t even considered. Our series of short visits portrays the different 
-        people using TASCHENBEGLEITER and their companions. In each episode, 
-        we take a closer look at work and ways of organisation. 
+        <?php echo $data["mainnews-article-text"]; ?>
         </div>
 
         </div>

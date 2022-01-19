@@ -1,72 +1,63 @@
-
-
-
-<div class="staff__picks">
-    <div class="staff__picks__title">
+<div class="staff-picks">
+    <div class="staff-picks-title">
         STAFF PICKS
     </div>
 
-  <div class="staff__picks__articles">
+  <div class="staff-picks__articles">
 
-    <div class="staff__picks__article">
-        <div class="article__image">
-            <img src="./assets/images/gallery22.png" alt="">
+    <div class="staff-picks__article-card">
+        <div class="staff-picks__article-image">
+            <img src="<?php echo $data["picks-image1"]; ?>" alt="">
         </div>
 
-        <div class="article__title">
-        Short Visits: Some of our Customers
+        <div class="staff-picks__article-title">
+        <?php echo $data["picks-title1"]; ?>
         </div>
 
-        <div class="article__text">
-        Our dear and valued customers use our TASCHENBEGLEITER for the things that matter to them, 
-        and in ways we hadn’t even considered. Our series of short visits portrays the different 
-        people using TASCHENBEGLEITER and their companions. In each episode, 
-        we take a closer look at work and ways of organisation. 
+        <div class="staff-picks__article-text">
+        <?php echo $data["picks-text1"]; ?>
         </div>
     </div>
 
-    <div class="staff__picks__article">
-        <div class="article__image">
-            <img src="./assets/images/gallery21.png" alt="">
+    <div class="staff-picks__article-card">
+        <div class="staff-picks__article-image">
+            <img src="<?php echo $data["picks-image2"]; ?>" alt="">
         </div>
 
-        <div class="article__title">
-        Maximum freedom
+        <div class="staff-picks__article-title">
+        <?php echo $data["picks-title2"]; ?>
         </div>
 
-        <div class="article__text">
-        It grows with every thing you put inside of it. And every little bit, every moment that it lives through with you, makes it more yours.
-        </div>
-    </div>
-
-    <div class="staff__picks__article">
-        <div class="article__image">
-            <img src="./assets/images/gallery23.jpg" alt="">
-        </div>
-
-        <div class="article__title">
-        Short Visits: Some of our Customers
-        </div>
-
-        <div class="article__text">
-        Our dear and valued customers use our TASCHENBEGLEITER for the things that matter to them, 
-        and in ways we hadn’t even considered. Our series of short visits portrays the different 
-        people using TASCHENBEGLEITER and their companions. In each episode, 
-        we take a closer look at work and ways of organisation. 
+        <div class="staff-picks__article-text">
+        <?php echo $data["picks-text2"]; ?>
         </div>
     </div>
 
-    <div class="staff__picks__article">
-        <div class="article__image">
-            <img src="./assets/images/gallery24.jpg" alt="">
+    <div class="staff-picks__article-card">
+        <div class="staff-picks__article-image">
+            <img src="<?php echo $data["picks-image3"]; ?>" alt="">
         </div>
 
-        <div class="article__title">
-        Maximum freedom
+        <div class="staff-picks__article-title">
+        <?php echo $data["picks-title3"]; ?>
         </div>
 
-        <div class="article__text">
-        It grows with every thing you put inside of it. And every little bit, every moment that it lives through with you, makes it more yours.
+        <div class="staff-picks__article-text">
+        <?php echo $data["picks-text3"]; ?>
+        </div>
+    </div>
+
+    <div class="staff-picks__article-card">
+        <div class="staff-picks__article-image">
+            <img src="<?php echo $data["picks-image4"]; ?>" alt="">
+        </div>
+
+        <div class="staff-picks__article-title">
+        <?php echo $data["picks-title4"]; ?>
+        </div>
+
+        <div class="staff-picks__article-text">
+        <?php echo $data["picks-text4"]; ?>
         </div>
     </div>
 

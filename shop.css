@@ -33,12 +33,12 @@
     src: url(./assets/fonts/ABCFavorit-Bold.woff);
  }
 
- .shop__first{
+ .shop-first{
      border-top: 1px solid black;
      margin-top: 30px;
  }
 
-.shop__first__title{
+.shop-first__title{
     margin-left: 0px;
     margin-top: 25px;
     font-family: ABCArizonaMixLight;
@@ -52,12 +52,12 @@
 
 }
 
-.shop__features{
+.shop-features{
     margin-top: 29px;
     margin-bottom: 125px;
 }
 
-.features__title{
+.shop-features__title{
     font-family: ABCFavoriteMono;
     font-style: normal;
     font-weight: normal;
@@ -72,7 +72,7 @@
     border-bottom: 1px solid black;
 }
 
-.features__gallery{
+.shop-features__gallery{
     margin-top: 29px;
     width: 100%;
     display: flex;
@@ -80,20 +80,20 @@
   
 }
 
-.features__gallery__left{
+.shop-features__gallery-left{
     width: 50%;
     margin-right: 0.6875em;
     position: relative;
    
 }
 
-.features__gallery__left img{
+.shop-features__gallery-left img{
     width: 100%;
     object-fit: cover;
 }
 
 
-.features__gallery__left::after {
+.shop-features__gallery-left::after {
     content: '';
     position: absolute;
     top: 0;
@@ -107,7 +107,7 @@
 
 
 
-.gallery__left__description{
+.shop-features__gallery-left--description{
     position: absolute;
     top: 60px;
     left: 60px;
@@ -123,7 +123,7 @@
     color: #FCFCF5;
 }
 
-.gallery__left__headline{
+.shop-features__gallery-left--headline{
     position: absolute;
     top: 66px;
     left: 60px;
@@ -142,7 +142,7 @@
 
 }
 
-.gallery__left__button{
+.shop-features__gallery-left--button{
     position: absolute;
     top: 351px;
     left: 60px;
@@ -170,18 +170,18 @@
 
 
 
-.features__gallery__right{
+.shop-features__gallery-right{
     width: 50%;
     margin-left: 0.6875em;
     position: relative;
 }
 
-.features__gallery__right img{
+.shop-features__gallery-right img{
     width: 100%;
     object-fit: cover;
 }
 
-.features__gallery__right::after {
+.shop-features__gallery-right::after {
     content: '';
     position: absolute;
     top: 0;
@@ -192,7 +192,7 @@
 }
 
 
-.gallery__right__description{
+.shop-features__gallery-right--description{
     position: absolute;
     bottom: 300px;
     left: 60px;
@@ -208,7 +208,7 @@
     color: #FCFCF5;
 }
 
-.gallery__right__headline{
+.shop-features__gallery-right--headline{
     position: absolute;
     bottom: 134px;
     left: 60px;
@@ -227,7 +227,7 @@
 
 }
 
-.gallery__right__button{
+.shop-features__gallery-right--button{
     position: absolute;
     bottom: 60px;
     left: 60px;
@@ -265,7 +265,7 @@
 }
 
 
-.products__navigation__filter{
+.products__navigation-filter{
     display: flex;
     justify-content: space-between;
     border: 1px solid #0F0E09;
@@ -291,7 +291,7 @@
 }
 
 
-.products__navigation__links a{
+.products__navigation-links a{
     text-decoration: none;
     font-family: ABCFavoriteTrial;
     font-style: normal;
@@ -306,12 +306,12 @@
 
 }
 
-.products__navigation__links a:nth-child(1){
+.products__navigation-links a:nth-child(1){
     padding-bottom: 9px;
     border-bottom: 2px solid black;
 }
 
-.products__navigation__sort{
+.products__navigation-sort{
     display: flex;
     justify-content: space-between;
     border: 1px solid #0F0E09;
@@ -338,32 +338,32 @@
 }
 
 
-.shop__products__grid{
+.products__grid{
     margin-top: 30px;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.products__grid__card{
+.products__grid-card{
     width: 32.8%;
     padding-bottom: 43px;
     border-bottom: 1px solid #0F0E09;
 }
 
-.products__grid__card img{
+.products__grid-card img{
     width: 100%;
     object-fit: cover;
 }
 
-.products__grid__card__info{
+.products__grid-card--info{
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
 }
 
-.card__info__name{
+.card--info__name{
     justify-content: flex-start;
   
     font-family: ABCArizonaMixLight;
@@ -377,7 +377,7 @@
 
 }
 
-.card__info__price{
+.card--info__price{
     justify-content: flex-end;
 
     font-family: ABCFavoriteMono;
@@ -393,14 +393,14 @@
 }
 
 
-.shop__banner{
+.shop-banner{
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 145px;
 }
 
-.shop__banner__left{
+.shop-banner__handwrite{
     margin-top: 512px;
     width: 25%;
     justify-content: flex-start;
@@ -415,7 +415,7 @@
     color: #1082B3;
 }
 
-.shop__banner__left__text{
+.shop-banner__handwrite-text{
     width: 90%;
     font-family: Manu;
     font-style: italic;
@@ -429,25 +429,25 @@
 
 }
 
-.shop__banner__left img{
+.shop-banner__handwrite img{
     padding-bottom: 33px;
 }
 
 
-.shop__banner__right{
+.shop-banner__image-text{
     margin-top: 120px;
     width: 75%;
     margin-right: -40px;
     justify-content: flex-end;
 }
 
-.shop__banner__right img{
+.shop-banner__image-text img{
     margin-top: 36px;
     width: 100%;
     object-fit: cover;
 }
 
-.shop__banner__right__text{
+.shop-banner__image-text--text{
     width: 60%;
     font-family: ABCFavoriteTrial;
     font-style: normal;

@@ -1,16 +1,14 @@
-<div class="shop__banner">
-    <div class="shop__banner__left">
-        <img src="./assets/images/Group 466.svg" alt="">
-        <div class="shop__banner__left__text">
-        We take our time in crafting one pocket companion, 
-        because it's made to last and be with you on a lifelong journey. 
-        It's crafted by hand from high-quality materials in our manufactory in Germany. 
+<div class="shop-banner">
+    <div class="shop-banner__handwrite">
+        <img src="<?php echo $data["handwrite-image"]; ?>" alt="">
+        <div class="shop--banner__handwrite-text">
+        <?php echo $data["handwrite-text"]; ?> 
         </div>
       
     </div>
 
-    <div class="shop__banner__right">
-        <div class="shop__banner__right__text">
+    <div class="shop-banner__image-text">
+        <div class="shop-banner__image-text--text">
         <?php echo $data["shop__banner__right__text"]; ?>
         </div>
 

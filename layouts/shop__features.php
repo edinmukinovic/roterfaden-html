@@ -1,38 +1,38 @@
-<div class="shop__features">
+<div class="shop-features">
 
-    <div class="features__title">
+    <div class="shop-features__title">
     THE FEATURES
     </div>
 
-    <div class="features__gallery">
+    <div class="shop-features__gallery">
 
-        <div class="features__gallery__left">
+        <div class="shop-features__gallery-left">
         <img src="<?php echo $data["featuresimageleft"]; ?>">
 
-            <div class="gallery__left__description">
+            <div class="shop-features__gallery-left--description">
             <?php echo $data["left__description"]; ?>
             </div>
 
-            <div class="gallery__left__headline">
+            <div class="shop-features__gallery-left--headline">
             <?php echo $data["left__headline"]; ?>
             </div>
 
             <but
-            ton class="gallery__left__button">See them</button>
+            ton class="shop-features__gallery-left--button">See them</button>
         </div>
 
-        <div class="features__gallery__right">
+        <div class="shop-features__gallery-right">
         <img src="<?php echo $data["featuresimageright"]; ?>">
 
-            <div class="gallery__right__description">
+            <div class="shop-features__gallery-right--description">
             <?php echo $data["right__description"]; ?>
             </div>
 
-            <div class="gallery__right__headline">
+            <div class="shop-features__gallery-right--headline">
             <?php echo $data["right__headline"]; ?>
             </div>
 
-            <button class="gallery__right__button">See them</button>
+            <button class="shop-features__gallery-right--button">See them</button>
         </div>
 
 

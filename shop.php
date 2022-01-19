@@ -22,6 +22,12 @@ getLayout("shop__products", array(
 ));
 
 getLayout("shop__banner", array(
+    'handwrite-image' => "./assets/images/Group 466.svg",
+    'handwrite-text' => "We take our time in crafting one pocket companion, 
+    because it's made to last and be with you on a lifelong journey. 
+    It's crafted by hand from high-quality materials in our manufactory in Germany.",
+
+
     'shop__banner__right__text' => ' Founded in 2006, our products are handcrafted with <br> high-quality materials and great emphasis on sustainability and design.',
     'image' => "./assets/images/shopbanner.jpg"
 ));
