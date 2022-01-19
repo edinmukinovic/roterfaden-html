@@ -1,42 +1,3 @@
-@font-face {
-    font-family: ABCFavoriteMono;
-    src: url(./assets/fonts/ABCFavoritMono-Light.woff);
- }
-
- @font-face {
-    font-family: ABCFavoriteTrial;
-    src: url(./assets/fonts/ABCFavorit-Regular.woff);
- }
-
- @font-face {
-    font-family: ABCFavoriteTrialLight;
-    src: url(./assets/fonts/ABCFavorit-Light.woff);
- }
-
- @font-face {
-    font-family: ABCArizonaMixLight;
-    src: url(./assets/fonts/ABCArizonaMix-Light.woff);
- }
-
- @font-face {
-    font-family: ABCArizonaMixRegular;
-    src: url(./assets/fonts/ABCArizonaMix-Regular.woff);
- }
-
- @font-face {
-    font-family: Manu;
-    src: url(./assets/fonts/ManuInformal.woff);
- }
-
- @font-face {
-    font-family: ABCFavoriteBold;
-    src: url(./assets/fonts/ABCFavorit-Bold.woff);
- }
-
-
-
-
-
 body{
     margin: 30px 40px 30px 40px;
     max-width: 100%;
@@ -134,24 +95,14 @@ body{
     position: absolute;
     bottom: 12.75rem;
     left: 2.875rem;
-    font-family: ABCArizonaMixLight;
     color: white;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 4.5rem;
-    line-height: 80px;
-    width: 80%;
+    width: 55%;
     z-index: 1;
    
 }
 
 .intro__background-description{
     color: #FCFCF5;
-    font-family: ABCFavoriteTrial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.125rem;
-    line-height: 30px;
     z-index: 1;
 
     position: absolute;
@@ -187,12 +138,6 @@ body{
 }
 
 .intro__background-signature{
-    font-family: Manu;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    font-feature-settings: 'pnum' on, 'onum' on;
     color: #FCFCF5;
     position: absolute;
     bottom: 12px;
@@ -223,23 +168,11 @@ body{
     justify-content: end;
 }
 
-.gallery__first-text{
-        font-family: ABCFavoriteTrialLight;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 30px;
-        line-height: 42px;
-    }
+
 
 .gallery__first-signature{
     margin-top: 1em;
     float: right;
-    font-family: Manu;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    font-feature-settings: 'pnum' on, 'onum' on;
     color: #1082B3;;
 }
 
@@ -265,22 +198,11 @@ body{
 .gallery__second-signature{
     margin-top: 18.5vh;
     float: right;
-    font-family: Manu;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    font-feature-settings: 'pnum' on, 'onum' on;
     color: #1082B3;;
 }
 
 .gallery__second-text{
         margin-top: 29vh;
-        font-family: ABCFavoriteTrialLight;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 30px;
-        line-height: 42px;
         margin-right: 0px;
         padding-right: 0px;
 }
@@ -305,11 +227,6 @@ body{
     margin-top: 13.2vh;
     padding-bottom: 2vh;
     border-bottom: 1px solid black;
-    font-family: ABCFavoriteMono;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 16px;
 }
 
 /*--------OUR RANGE-------*/
@@ -355,22 +272,11 @@ body{
 }
 
 .banner__first-signature{
-    font-family:ABCFavoriteMono;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
     color: #FCFCF5;
 }
 
 .banner__first-text{
     margin-top: 5px;
-    font-family: ABCArizonaMixTrial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 72px;
-    line-height: 66px;
-    letter-spacing: -0.03em;
     color: #FCFCF5;
 }
 
@@ -424,22 +330,11 @@ body{
 }
 
 .banner__second-signature{
-    font-family:ABCFavoriteMono;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
     color: #FCFCF5;
 }
 
 .banner__second-text{
     margin-top: 5px;
-    font-family: ABCArizonaMixTrial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 72px;
-    line-height: 66px;
-    letter-spacing: -0.03em;
     color: #FCFCF5;
 }
 
@@ -466,11 +361,7 @@ body{
 .explore{
     margin-top: 13.16vh;
     text-align: right;
-    font-family: ABCFavoriteTrial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 60px;
-    line-height: 30px;   
+
 }
 
 .explore__underline{
@@ -484,16 +375,11 @@ body{
 
 .explore__signature{
     margin-top: 37px;
-    font-family: Manu;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    font-feature-settings: 'pnum' on, 'onum' on;
     color: #1082B3;
     text-align: left;
     float: right;
     padding-right: 75px;
+
 }
 
 /*--------EXPLORE------*/
@@ -502,13 +388,6 @@ body{
 
 .discover{
     margin-top: 205px;
-    font-family: ABCFavoriteTrial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 120px;
-    line-height: 108px;
-    letter-spacing: -0.05em;
-    font-feature-settings: 'ss03' on;
     color: #0F0E09;
     padding-bottom: 39px;
     border-bottom: 1px solid #0F0E09;
@@ -530,22 +409,12 @@ body{
 
 .gallery2-title{
     margin-top: 18px;
-    font-family: ABCArizonaMixRegular;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 105%;
     color: #0F0E09;
 }
 
 .gallery2-text{
     margin-top: 12px;
     width: 90%;
-    font-family:  ABCFavoriteTrial;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
 }
 
 /*--------GALLERY2------*/

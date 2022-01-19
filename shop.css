@@ -41,11 +41,6 @@
 .shop-first__title{
     margin-left: 0px;
     margin-top: 25px;
-    font-family: ABCArizonaMixLight;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 120px;
-    line-height: 120px;
 
     letter-spacing: -0.04em;
     color: #0F0E09;
@@ -58,13 +53,6 @@
 }
 
 .shop-features__title{
-    font-family: ABCFavoriteMono;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 16px;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
 
     color: #0F0E09;
 
@@ -112,12 +100,6 @@
     top: 60px;
     left: 60px;
 
-    font-family: ABCFavoriteMono;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    text-transform: uppercase;
     z-index: 1;
 
     color: #FCFCF5;
@@ -129,12 +111,6 @@
     left: 60px;
     margin-top: 5px;
 
-    font-family: ABCArizonaMixLight;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 72px;
-    line-height: 80px;
-    letter-spacing: -0.03em;
     z-index: 1;
 
     color: #FCFCF5;
@@ -196,13 +172,6 @@
     position: absolute;
     bottom: 300px;
     left: 60px;
-
-    font-family: ABCFavoriteMono;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    text-transform: uppercase;
     z-index: 1;
 
     color: #FCFCF5;
@@ -213,13 +182,6 @@
     bottom: 134px;
     left: 60px;
     margin-top: 5px;
-
-    font-family: ABCArizonaMixLight;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 72px;
-    line-height: 80px;
-    letter-spacing: -0.03em;
     z-index: 1;
 
     color: #FCFCF5;
@@ -293,14 +255,7 @@
 
 .products__navigation-links a{
     text-decoration: none;
-    font-family: ABCFavoriteTrial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 30px;
-    letter-spacing: -0.03em;
-    font-feature-settings: 'ss03' on;
-
+    font-weight: bold;
     color: #0F0E09;
     margin-left: 30px;
 
@@ -365,12 +320,6 @@
 
 .card--info__name{
     justify-content: flex-start;
-  
-    font-family: ABCArizonaMixLight;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
 
     color: #0F0E09;
 
@@ -379,13 +328,6 @@
 
 .card--info__price{
     justify-content: flex-end;
-
-    font-family: ABCFavoriteMono;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-
     text-transform: uppercase;
 
     color: #0F0E09;
@@ -404,12 +346,6 @@
     margin-top: 512px;
     width: 25%;
     justify-content: flex-start;
-    font-family: Manu;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    font-feature-settings: 'pnum' on, 'onum' on;
     padding-right: 35px;
 
     color: #1082B3;
@@ -417,12 +353,6 @@
 
 .shop-banner__handwrite-text{
     width: 90%;
-    font-family: Manu;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    font-feature-settings: 'pnum' on, 'onum' on;
     padding-right: 35px;
 
     color: #1082B3;
@@ -449,13 +379,6 @@
 
 .shop-banner__image-text--text{
     width: 60%;
-    font-family: ABCFavoriteTrial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 42px;
-    font-feature-settings: 'ss03' on;
-
     color: #0F0E09;
 }
 
@@ -484,25 +407,11 @@
 
 .suggestion__name{
     justify-content: flex-start;
-
-    font-family: ABCArizonaMixLight;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-
     color: #0F0E09;
 }
 
 .suggestion__price{
     justify-content: flex-end;
-
-    font-family: ABCFavoriteMono;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    text-transform: uppercase;
-
     color: #0F0E09;
 }
 

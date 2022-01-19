@@ -42,14 +42,6 @@
 
 .mainnews-title{
     margin-top: 25px;
-    
-
-    font-family: ABCArizonaMixRegular;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 120px;
-    line-height: 120px;
-    letter-spacing: -0.07em;
     color: #0F0E09;
 }
 
@@ -78,24 +70,12 @@
 
 
 .mainnews__content__article-title{
-font-family: ABCArizonaMixRegular;
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 105%;
-letter-spacing: -0.02em;
 color: #0F0E09;
 margin-top: 48px;
 }
 
 .mainnews__content__article-text{
     margin-top: 12px;
-    font-family: ABCFavoriteTrial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    font-feature-settings: 'ss03' on;
     color: #0F0E09;
     width: 60%;
 
@@ -114,14 +94,6 @@ margin-top: 48px;
 }
 
 .conversations__title{
-    font-family: ABCFavoriteMono;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 16px;
-
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
     color: #0F0E09;
 
     padding-bottom: 2vh;
@@ -147,24 +119,12 @@ margin-top: 48px;
 }
 
 .conversation__articles-title{
-    font-family: ABCArizonaMixRegular;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 105%;
-    letter-spacing: -0.02em;
     color: #0F0E09;
     margin-top: 18px;
 }
 
 .conversation__articles-text{
     margin-top: 12px;
-    font-family: ABCFavoriteTrial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    font-feature-settings: 'ss03' on;
     color: #0F0E09;
     width: 80%;
     
@@ -204,24 +164,12 @@ margin-top: 48px;
 }
 
 .stories__article-title{
-    font-family: ABCArizonaMixRegular;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 105%;
-    letter-spacing: -0.02em;
     color: #0F0E09;
     margin-top: 45px;
 }
 
 .stories__article-text{
     margin-top: 12px;
-    font-family: ABCFavoriteTrial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    font-feature-settings: 'ss03' on;
     color: #0F0E09;
     width: 85%;
 }
@@ -257,13 +205,6 @@ margin-top: 48px;
 }
 
 .staff-picks-title{
-    font-family: ABCFavoriteMono;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 16px;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
     color: #0F0E09;
 
     border-bottom: 1px solid black;
@@ -288,38 +229,18 @@ margin-top: 48px;
 }
 
 .staff-picks__article-title{
-    font-family: ABCArizonaMixRegular;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 105%;
-    letter-spacing: -0.02em;
     color: #0F0E09;
     margin-top: 18px;
 }
 
 .staff-picks__article-text{
     margin-top: 12px;
-    font-family: ABCFavoriteTrial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    font-feature-settings: 'ss03' on;
     color: #0F0E09;
     width: 95%;
 }
 
 
 .show__more{
-    font-family: ABCFavoriteTrial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 60px;
-    line-height: 30px;
-
-    letter-spacing: -0.05em;
-    font-feature-settings: 'ss03' on;
     color: #0F0E09;
 
     margin-top: 16px;

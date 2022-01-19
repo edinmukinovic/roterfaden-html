@@ -1,1 +1,1 @@
-<div class="discover"> <?php echo $data["discover-text"]; ?></div>
+<div class="discover quote"> <?php echo $data["discover-text"]; ?></div>

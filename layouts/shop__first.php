@@ -6,7 +6,7 @@
         <a href="news.php">Taschenbegleiter Editions</a>
     </div>
 
-        <div class="shop-first__title">
+        <div class="shop-first__title h1">
         <?php echo $data["shop__title"]; ?>
         </div>
 

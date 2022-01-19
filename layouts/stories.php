@@ -6,11 +6,11 @@
         </div>
 
         <div class="stories__article-story">
-            <div class="stories__article-title">
+            <div class="stories__article-title title">
             <?php echo $data["story-title1"]; ?>
             </div>
 
-            <div class="stories__article-text">
+            <div class="stories__article-text text">
             <?php echo $data["story-text1"]; ?>
             </div>
         </div>
@@ -22,11 +22,11 @@
         </div>
 
         <div class="stories__article-story">
-            <div class="stories__article-title">
+            <div class="stories__article-title title">
             <?php echo $data["story-title2"]; ?>
             </div>
 
-            <div class="stories__article-text">
+            <div class="stories__article-text text">
             <?php echo $data["story-text2"]; ?>
             </div>
         </div>

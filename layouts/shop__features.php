@@ -1,6 +1,6 @@
 <div class="shop-features">
 
-    <div class="shop-features__title">
+    <div class="shop-features__title h4">
     THE FEATURES
     </div>
 
@@ -9,11 +9,11 @@
         <div class="shop-features__gallery-left">
         <img src="<?php echo $data["featuresimageleft"]; ?>">
 
-            <div class="shop-features__gallery-left--description">
+            <div class="shop-features__gallery-left--description subtitle2">
             <?php echo $data["left__description"]; ?>
             </div>
 
-            <div class="shop-features__gallery-left--headline">
+            <div class="shop-features__gallery-left--headline headline1">
             <?php echo $data["left__headline"]; ?>
             </div>
 
@@ -24,11 +24,11 @@
         <div class="shop-features__gallery-right">
         <img src="<?php echo $data["featuresimageright"]; ?>">
 
-            <div class="shop-features__gallery-right--description">
+            <div class="shop-features__gallery-right--description subtitle2">
             <?php echo $data["right__description"]; ?>
             </div>
 
-            <div class="shop-features__gallery-right--headline">
+            <div class="shop-features__gallery-right--headline headline1">
             <?php echo $data["right__headline"]; ?>
             </div>
 

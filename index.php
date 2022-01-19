@@ -37,7 +37,7 @@ getLayout("banner", array(
 
 getLayout("explore", array(
     'explore-text' => 'Explore other items in <span class="explore__underline"> our shop',
-    'explore__signature' => 'Every journey <br> needs a companion.',
+    'explore__signature' => 'Every  journey <br> needs a companion.',
 ));
 
 getLayout("discover", array(
