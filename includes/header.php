@@ -10,6 +10,7 @@
     <link rel="stylesheet" media="screen and (min-width: 1150px)" href="shop.css">
     <link rel="stylesheet" media="screen and (min-width: 1150px)" href="news.css">
     <link rel="stylesheet" media="screen and (min-width: 1150px)" href="typography.css">
+    <link rel="stylesheet" media="screen and (min-width: 1150px)" href="materials.css">
     <link rel="stylesheet" media="screen and (max-width: 1150px)" href="responsive.css">
 
         <title>Roterfaden - html</title>

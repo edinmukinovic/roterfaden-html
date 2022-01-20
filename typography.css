@@ -65,9 +65,10 @@
     font-family: ABCFavoriteTrial;
     font-size: 30px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     line-height: 42px;
     letter-spacing: 0em;
+
  }
 
  h4, .h4{
@@ -100,7 +101,7 @@
  }
 
  .title{
-    font-family: ABCArizonaMixLight;
+    font-family: ABCArizonaMix;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;

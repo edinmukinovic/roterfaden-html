@@ -2,6 +2,11 @@
 
 include './includes/header.php'; 
 
+getLayout("page-link", array(
+    'page-link1' => 'SHOP',
+    'page-link2' => 'Taschenbegleiter Editions',
+));
+
 getLayout("shop__first", array(
     'shop__title' => 'Taschenbegleiter <br> Editions',
 ));

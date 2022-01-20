@@ -1,19 +1,18 @@
 
 .mainnews{
     margin-top: 30px;
-    border-top: 1px solid black;
 }
 
 
 /*******container___first__links*******/
 
-.mainnews-links {
+.page-link {
     margin-top: 24px;
     margin-left: 10px;
  
 }
 
-.mainnews-links a{
+.page-link a{
     text-decoration: none;
     font-family: ABCFavoriteMono;
     font-style: normal;
@@ -31,7 +30,7 @@
     opacity: 0.7;
 }
 
-.mainnews-links a:nth-child(2){
+.page-link a:nth-child(2){
     padding-right: 30px;
 }
 
@@ -40,7 +39,7 @@
 
 /*******container___first__title*******/
 
-.mainnews-title{
+.maintitle{
     margin-top: 25px;
     color: #0F0E09;
 }
@@ -90,6 +89,9 @@ margin-top: 48px;
 
 .conversations{
     margin-top: 137px;
+    border-bottom: 1px solid black;
+    padding-bottom: 52px;
+
    
 }
 
@@ -137,7 +139,7 @@ margin-top: 48px;
 
 .stories{
     margin-top: 94px;
-    border-top: 1px solid black;
+    
 }
 
 .stories__article{
@@ -147,6 +149,16 @@ margin-top: 48px;
     display: flex;
     width: 100%;
 }
+
+.reverse{
+    flex-direction: row-reverse;
+    margin-top: 42px;
+    border-bottom: 1px solid black;
+    padding-bottom: 52px;
+    display: flex;
+    width: 100%;
+}
+
 
 .stories__article-image{
     width: 50%;
@@ -163,6 +175,14 @@ margin-top: 48px;
     padding-left: 24px;
 }
 
+.stories__article-story--reverse{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    
+}
+
 .stories__article-title{
     color: #0F0E09;
     margin-top: 45px;
@@ -174,6 +194,12 @@ margin-top: 48px;
     width: 85%;
 }
 
+.stories__article-text--reverse{
+    margin-top: 0px;
+    color: #0F0E09;
+    width: 70%;
+    margin-right: 50px;
+}
 /*******container__stories*******/
 
 /*******container__second__content*******/

@@ -1,0 +1,98 @@
+.materials-intro{
+    width: 100%;
+}
+
+.materials-intro img{
+    margin-top: 60px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.materials-info__text{
+    margin-top: 15px;
+}
+
+.materials-text{
+    margin-top: 75px;
+    width: 100%;
+    display: flex;
+}
+
+.materials-text__handwrite{
+    margin-top: 40px;
+    width: 25%;
+    color: #1082B3;
+
+}
+
+.materials-text__text{
+    width: 75%;
+}
+
+.materials-video{
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.materials-video__article{
+    width: 77%;
+    margin-right: -40px;
+    justify-content: flex-end;
+    border-bottom: 1px solid black;
+    padding-bottom: 90px;
+}
+
+.materials-video__video{ 
+    position: relative;
+}
+
+.materials-video__video img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.materials-video__button{
+    position: absolute;
+    bottom: 27.67px;
+    left: 26.67px;
+}
+
+.materials-video__text{
+    margin-top: 48px;
+    width: 60%;
+}
+
+
+.materials-article{
+    width: 100%;
+    margin-top: 120px;
+}
+
+.materials-article img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.materials-article__story{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.materials-article__info{
+    width: 77%;
+}
+
+.materials-article__info-title{
+    margin-top: 120px;
+    width: 60%;
+}
+
+.materials-article__info-text{
+    margin-top: 120px;
+    width: 60%;
+}

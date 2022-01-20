@@ -2,6 +2,11 @@
 
 include './includes/header.php'; 
 
+getLayout("page-link", array(
+    'page-link1' => 'About us',
+    'page-link2' => 'News',
+));
+
 getLayout("mainnews", array(
     'mainnews-title' => 'News',
 

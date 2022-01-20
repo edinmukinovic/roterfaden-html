@@ -1,12 +1,6 @@
 
 <div class="mainnews">
 
-<div class="mainnews-links">
-    <a href="index.php">ROTERFADEN</a>
-    <a href="index.php">ABOUT US</a>
-    <a href="news.php">NEWS</a>
-</div>
-
 <div class="mainnews-title h1">
 <?php echo $data["mainnews-title"]; ?>
 </div>
