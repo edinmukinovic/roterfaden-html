@@ -65,7 +65,7 @@ getLayout("stories-single", array(
 
 
 getLayout("stories-single", array(
-
+    "reverse" => true,
     'story-image1' => './assets/images/stories5.jpg',
     'story-text1' => ' Our patented design system is based on high quality stainless steel clips. They can be opened and closed with ease.
      It’s simple, subtle and fits all kinds of formats, with no restrictions and nothing loose.',

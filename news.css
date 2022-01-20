@@ -150,14 +150,9 @@ margin-top: 48px;
     width: 100%;
 }
 
-.reverse{
+.stories--reverse {
     flex-direction: row-reverse;
-    margin-top: 42px;
-    border-bottom: 1px solid black;
-    padding-bottom: 52px;
-    display: flex;
-    width: 100%;
-}
+  }
 
 
 .stories__article-image{
@@ -175,12 +170,15 @@ margin-top: 48px;
     padding-left: 24px;
 }
 
-.stories__article-story--reverse{
+.stories__article-story--text{
     width: 50%;
     display: flex;
     justify-content: flex-end;
     align-self: flex-end;
-    
+}
+
+.text--reverse{
+    justify-content: flex-start;
 }
 
 .stories__article-title{
@@ -194,12 +192,7 @@ margin-top: 48px;
     width: 85%;
 }
 
-.stories__article-text--reverse{
-    margin-top: 0px;
-    color: #0F0E09;
-    width: 70%;
-    margin-right: 50px;
-}
+
 /*******container__stories*******/
 
 /*******container__second__content*******/
