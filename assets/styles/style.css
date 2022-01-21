@@ -222,12 +222,12 @@ body{
     font-family: ABCFavoriteTrialLight;
     text-decoration: none;
 	padding-bottom: 2px;
-	background: url(./assets/images/underline.png) bottom repeat-x;
+	background: url(../images/underline.png) bottom repeat-x;
 }
 
 .underline-text{
     padding-bottom: 2px;
-	background: url(./assets/images/underline.png) bottom repeat-x;
+	background: url(../images/underline.png) bottom repeat-x;
 }
 /*--------GALLERY-------*/
 
@@ -387,7 +387,8 @@ body{
     color: #1082B3;
     text-align: left;
     float: right;
-    padding-right: 75px;
+    width: 10%;
+    
 
 }
 
