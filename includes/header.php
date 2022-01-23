@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" media="screen and (min-width: 1150px)" href="../assets/styles/style.css">
-    <link rel="stylesheet" media="screen and (min-width: 1150px)" href="../assets/styles/shop.css">
-    <link rel="stylesheet" media="screen and (min-width: 1150px)" href="../assets/styles/news.css">
-    <link rel="stylesheet" media="screen and (min-width: 1150px)" href="typography.css">
-    <link rel="stylesheet" media="screen and (min-width: 1150px)" href="../assets/styles/materials.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="news.css">
+    <link rel="stylesheet" href="typography.css">
+    <link rel="stylesheet" href="materials.css">
     <link rel="stylesheet" media="screen and (max-width: 1150px)" href="../assets/styles/responsive.css">
 
         <title>Roterfaden - html</title>
