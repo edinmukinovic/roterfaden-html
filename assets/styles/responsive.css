@@ -1,0 +1,900 @@
+
+@font-face {
+    font-family: ABCFavoriteMono;
+    src: url(./assets/fonts/ABCFavoritMono-Light.woff);
+ }
+
+ @font-face {
+    font-family: ABCFavoriteTrial;
+    src: url(./assets/fonts/ABCFavorit-Regular.woff);
+ }
+
+ @font-face {
+    font-family: ABCFavoriteTrialLight;
+    src: url(./assets/fonts/ABCFavorit-Light.woff);
+ }
+
+
+ @font-face {
+    font-family: ABCArizonaMixLight;
+    src: url(./assets/fonts/ABCArizonaMix-Light.woff);
+ }
+
+ @font-face {
+    font-family: ABCArizonaMixRegular;
+    src: url(./assets/fonts/ABCArizonaMix-Regular.woff);
+ }
+
+ @font-face {
+    font-family: Manu;
+    src: url(./assets/fonts/ManuInformal.woff);
+ }
+
+ @font-face {
+    font-family: ABCFavoriteBold;
+    src: url(./assets/fonts/ABCFavorit-Bold.woff);
+ }
+
+
+
+
+
+body{
+    margin: 30px 15px 30px 15px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/*------NAVIGATION -----*/
+.nav{
+      display: none;
+}
+/*------NAVIGATION -----*/
+
+/*--------IMG1-------*/
+.img1{
+    display: none;
+}
+/*--------IMG1-------*/
+
+/*--------GALLERY-------*/
+.gallery{
+    display: none;  
+}
+/*--------OUR RANGE-------*/
+.our__range{
+    display: none;
+}
+/*--------OUR RANGE-------*/
+
+/*--------BANNER-------*/
+.banner{
+    display: none;
+}
+/*--------BANNER------*/
+
+/*--------EXPLORE------*/
+.explore{
+    display: none;  
+}
+/*--------EXPLORE------*/
+
+/*--------DISCOVER------*/
+.discover{
+    display: none;
+}
+/*--------DISCOVER------*/
+
+/*--------GALLERY2------*/
+.gallery2{
+    display: none;
+}
+/*--------GALLERY2------*/
+
+/*--------FOOTER------*/
+.footer{
+    display: none;
+}
+/*--------FOOTER------*/
+
+/*--------LINK------*/
+.link{
+    display: none;
+}
+/*--------LINK------*/
+
+/*------RFADEN-----*/
+.rfaden{
+    display: none;
+}
+/*------RFADEN-----*/
+
+/*------TERMS-----*/
+.terms{
+    display: none;
+}
+/*------TERMS-----*/
+
+
+
+/********************************MOBILE DESIGN****************************/
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    height: 80%;
+    position: relative;
+    top: 97px;
+    width: 100%;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .top__left__text{
+      margin-bottom: 30px;
+      font-family: ABCFavoriteMono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #0F0E09;
+    opacity: 0.4;
+    text-transform: uppercase;
+  }
+  
+  .overlay a {
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-family: ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 30px;
+    letter-spacing: -0.05em;
+    font-feature-settings: 'ss03' on;
+    color: #0F0E09;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .overlay__language{
+      position: absolute;
+      bottom: 107px;
+      right: 40px;
+  }
+
+  .overlay__language a{
+    text-decoration: none;
+    font-family: ABCFavoriteMono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #0F0E09;
+    text-transform: uppercase;
+    padding-left: 36px;
+  }
+
+
+  .overlay__number{
+    width: 95%;
+    font-family: ABC Favorit Trial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 42px;
+    color: #0F0E09;
+
+    border-top: 1px solid black;
+    padding-top: 12px;
+
+    position: absolute;
+    left: 0px;
+    bottom: 36px;
+  }
+ 
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+
+.mobile__icon{
+    padding: 0px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.nav__bar{
+    width: 20px;
+    height: 1px;
+    background-color: black;
+    margin: 5.3px 0;
+}
+
+.row{
+width: 100%;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    position: relative;
+  }
+
+
+  .logo__img{
+    text-align: center;
+  }
+
+  .cart__img{
+      float: right;
+      margin-top: 15px;
+  }
+
+  .logo__img2{
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .cart__img2{
+      float: right;
+      margin-top: 20px;
+      margin-right: 20px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+
+.mobile{
+    max-width: 100%;
+    overflow-x: hidden;
+    margin-top: 18px;
+}
+
+
+/******mobile__img1******/
+
+
+.mobile__img1__text{
+    font-family: ABCArizonaMixLight;
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.625rem;
+    line-height: 42px;
+}
+
+.mobile__img1__background{
+    position: relative;
+    margin-top: 30px;
+}
+
+.mobile__img1__background::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(73.81deg, rgba(15, 14, 9, 0.3) 36.4%, rgba(15, 14, 9, 0) 78.65%);
+}
+
+
+.mobile__img1__background img{
+    width: 100%;
+    height: 26.25em;
+    object-fit:cover;
+    z-index: -999;
+}
+
+.mobile__img1__description{
+    color: #FCFCF5;
+    font-family: ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 30px;
+    z-index: 1;
+
+    position: absolute;
+    bottom: 98px;
+    left: 1.5rem;
+}
+
+.mobile__img1__button{
+    width: 169px;
+    height: 44px;
+    font-family: ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    color: #0F0E09;
+    z-index: 1;
+
+    position: absolute;
+    bottom: 30px;
+    left: 1.5rem;
+}
+
+.arrow{
+    width: auto;
+    height: auto;
+}
+/******mobile__img1******/
+
+/******mobile__gallery******/
+.mobile__gallery{
+    margin-top: 12px;
+}
+
+.mobile__gallery__text{
+    margin-top: 36px;
+    font-family: ABCFavoriteTrialLight;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'ss03' on;
+    color: #0F0E09;
+}
+
+.mobile__gallery__img img{
+    margin-top: 36px;
+    width: 100%;
+    height: 25em;
+    object-fit: cover;
+    z-index: -999;
+}
+
+/******mobile__gallery******/
+
+.mobile__our__range{
+    margin-top: 2.5625rem;
+    padding-bottom: 2vh;
+    border-bottom: 1px solid black;
+    font-family: ABCFavoriteMono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 16px;
+}
+
+
+/******mobile__banner******/
+.mobile__banner{
+    margin-top: 0.3125rem;
+}
+
+.mobile__img2{
+    position: relative; 
+    margin-top: 30px;
+}
+
+.mobile__img2::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(73.81deg, rgba(15, 14, 9, 0.3) 36.4%, rgba(15, 14, 9, 0) 78.65%);
+}
+
+.mobile__img2 img{
+   
+    width: 100%;
+    height: 32.0625rem;
+    object-fit: cover;
+    z-index: -999;
+}
+
+.mobile__img2__desc{
+    width: 40%;
+    z-index: 1000;
+    margin-bottom: 0px;
+    padding:0px;
+    position: absolute;
+    top: 3.5625rem;
+    left: 1.875em;
+    color: #FCFCF5;
+
+    
+}
+
+.mobile__img2__signature{
+    font-family:ABCFavoriteMono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FCFCF5;
+    
+}
+
+.mobile__img2__text{
+    width: 100%;
+    margin-top: 5px;
+    font-family: ABCArizonaMixTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.125rem;
+    line-height: 42px;
+    letter-spacing: -0.03em;
+    color: #FCFCF5;
+    text-shadow: 3px 3px black;
+    
+}
+
+.mobile__img2__button{
+    margin-top: 30px;
+    width: 108px;
+    height: 44px;
+    background: #FCFCF5;
+    border-radius: 6px;
+    font-family: ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+/******mobile__banner******/
+
+.mobile__explore{
+    font-family: ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.625em;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 3.5625rem;
+    padding-bottom: 3.5625rem;
+    width: 100%;
+}
+
+
+
+/******mobile__gallery2******/
+
+.mobile__gallery2 img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    z-index: -999;
+    padding-top: 35px;
+}
+
+.mobile__gallery2__title{
+    margin-top: 18px;
+    font-family: ABCArizonaMixRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 105%;
+    color: #0F0E09;
+}
+
+.mobile__gallery2__text{
+    margin-top: 12px;
+    font-family: ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    font-feature-settings: 'ss03' on;
+    color: #0F0E09;
+    text-align:justify;  
+    text-justify:initial;
+}
+
+/******mobile__gallery2******/
+
+
+/******mobile__footer******/
+
+.mobile__footer{
+    margin-top: 95px;
+    border-top: 1px solid black;
+}
+
+.mobile__footer__links{
+    padding-top: 47px;
+    
+}
+
+.mobile__footer__links a{
+    text-decoration: none;
+    margin-bottom: 42px;
+    color: #0F0E09;
+    font-family: ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.625em;
+    letter-spacing: -0.05em;
+    width: 50%;
+}
+
+.mobile__footer__info{
+    margin-top: 45px;
+    display: flex;
+}
+
+.mobile__address{
+    width: 50%;
+    font-family: ABCFavoriteTrialLight;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'ss03' on;
+    color: #0F0E09;
+}
+
+.mobile__logo{
+    width: 50%;  
+}
+
+.mobile__logo img{
+  float: right;
+}
+
+.mobile__contact{
+    font-family: ABCFavoriteTrialLight;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'ss03' on;
+    color: #0F0E09;
+}
+
+.mobile__socials{
+    margin-top: 45px;
+}
+
+.mobile__socials a{
+    padding-right: 15px;
+}
+
+/******mobile__footer******/
+
+
+
+.mobile__rfaden{
+    margin-left: -40px;
+    margin-right: -40px;
+    margin-top: 35px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    
+    font-family: ABCFavoriteBold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.terms__language{
+    margin-top: 30px;
+    text-decoration: none;
+    font-family: ABCFavoriteMono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #0F0E09;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+
+.mobile__terms{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+}
+
+.terms__language a{
+    text-decoration: none;
+    font-family: ABCFavoriteMono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #0F0E09;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.mobile__terms a{
+    text-decoration: none;
+    font-family: ABCFavoriteMono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #0F0E09;
+    text-transform: uppercase;
+    text-align: center;
+    width: 50%;
+}
+
+
+/*******MOBILE DESIGN****/
+
+
+
+
+
+/************************NEWS*********************/
+
+
+.desktop{
+    display: none;
+}
+
+
+.mobile__container__news--title{
+    font-family:ABCArizonaMixRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 42px;
+
+ 
+    letter-spacing: -0.03em;
+    color: #0F0E09;
+
+    margin-top: 18px;
+}
+
+.mobile__container__news__image{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.mobile__container__news__image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.mobile__news__title{
+    font-family: ABCArizonaMixRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #0F0E09;
+
+    margin-top: 18px;
+}
+
+.mobile__news__text{
+    font-family: ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    font-feature-settings: 'ss03' on;
+    color: #0F0E09;
+
+    margin-top: 12px;
+}
+
+
+.mobile__conversation__title{
+    font-family: ABCFavoriteMono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    text-transform: uppercase;
+    color: #0F0E09;
+
+    margin-top: 47px;
+    border-bottom: 1px solid black;
+    padding-bottom: 19px;
+}
+
+
+
+
+
+.mobile__conversation__articles{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.mobile__conversation_article{
+    width: 85%;
+    margin-top: 36px;
+}
+
+.mobile__article__image{
+    width: 100%;
+}
+
+.mobile__article__image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.mobile__article__title{
+    font-family: ABCArizonaMixRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    width: 100%;
+
+    color: #0F0E09;
+    margin-top: 18px;
+
+}
+
+.mobile__article__text{
+    font-family:  ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    font-feature-settings: 'ss03' on;
+
+    color: #0F0E09;
+    margin-top: 12px;
+    width: 100%;
+}
+
+.conversation__stories{
+    margin-top: 48px;
+}
+
+.conversation__stories__image{
+    width: 100%;
+}
+
+.conversation__stories__image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.conversation__stories__title{
+    font-family: ABCArizonaMixRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    width: 100%;
+
+    color: #0F0E09;
+    margin-top: 18px;
+}
+
+.conversation__stories__text{
+    font-family:  ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    font-feature-settings: 'ss03' on;
+
+    color: #0F0E09;
+    margin-top: 12px;
+    width: 100%;
+    padding-bottom: 6px;
+}
+
+
+.mobile__roter__stories{
+    margin-top: 48px;
+}
+
+.roterfaden__heading{
+    font-family: ABCFavoriteMono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    text-transform: uppercase;
+    color: #0F0E09;
+
+    margin-top: 47px;
+    border-bottom: 1px solid black;
+    padding-bottom: 13px;
+}
+
+.roter__stories__image{
+    margin-top: 35px;
+    width: 100%;
+}
+
+.roter__stories__image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.roter__stories__title{
+    font-family: ABCArizonaMixRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    width: 100%;
+
+    color: #0F0E09;
+    margin-top: 18px;
+}
+
+.roter__stories__text{
+    font-family:  ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    font-feature-settings: 'ss03' on;
+
+    color: #0F0E09;
+    margin-top: 12px;
+    width: 100%;
+}
+
+
+.mobile__showmore{
+    margin-top: 76px;
+    font-family: ABCFavoriteTrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 30px;
+    text-align: right;
+    letter-spacing: -0.05em;
+    font-feature-settings: 'ss03' on;
+    color: #0F0E09;
+
+
+}
+
+/************************NEWS*********************/
